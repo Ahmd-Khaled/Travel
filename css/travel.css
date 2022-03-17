@@ -13,7 +13,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    height: 3000px;
+    /* height: 3000px; */
 }
 
 .titles {
@@ -290,4 +290,121 @@ header::before {
     position: absolute;
     top: 30%;
     left: 85%;
+}
+.book-trip .info {
+    padding-right: 150px;
+}
+@media (max-width: 992px) {
+    .book-trip .info {
+        padding-right: 1rem;
+    }
+}
+.book-trip .info .box {
+    
+}
+.book-trip .info .box img {
+    
+}
+.book-trip .info .box .txt {
+    
+}
+.book-trip .info .box .txt h6 {
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: bold;
+}
+.book-trip .info .box .txt p {
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 400;
+}
+.book-trip .main-box {
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+.book-trip .main-box .content h5 {
+    color: #080809;
+    font-size: 18px;
+    font-weight: 500;
+}
+.book-trip .main-box .content .date span {
+    color: #84829A;
+    font-size: 16px;
+}
+.book-trip .main-box .content .date .by {
+    border-left: 1px solid #84829A;
+}
+.book-trip .main-box .icons .image {
+    width: 36px;
+    height: 36px;
+    background-color: #F5F5F5;
+}
+/* .book-trip .main-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    box-shadow: 20px -20px 20px 20px #E9F5FC;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #E9F5FC;
+} */
+.book-trip .sec-box {
+    padding-right: 6rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    position: absolute;
+    bottom: 3rem;
+    right: -35%;
+    background-color: var(--white-color);
+}
+@media (max-width: 992px) {
+    .book-trip .sec-box {
+        margin-top: 3rem;
+        position: relative;
+        bottom: 0rem;
+        left: 0;
+    }
+}
+.book-trip .sec-box span {
+    display: block;
+}
+.book-trip .sec-box .ongoing {
+    color: #84829A;
+    font-size: 14px;
+    font-weight: 500;
+}
+.book-trip .sec-box .trip {
+    color: #080809;
+    font-size: 18px;
+    font-weight: 500;
+}
+.book-trip .sec-box .percent {
+    color: #8A79DF;
+    font-size: 14px;
+    font-weight: 500;
+}
+.book-trip .sec-box .progress {
+    height: 5px;
+    position: relative;
+}
+.book-trip .sec-box .progress::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #8A79DF;
+    height: 100%;
+    width: 40%;
 }
